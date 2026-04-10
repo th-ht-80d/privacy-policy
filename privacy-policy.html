@@ -1,233 +1,82 @@
 <!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>[アプリ名] | プライバシーポリシー・お問い合わせ</title>
-  <style>
-    :root {
-      --bg: #0f172a;
-      --card: #111827;
-      --text: #e5e7eb;
-      --muted: #9ca3af;
-      --accent: #38bdf8;
-      --border: #1f2937;
-      --danger: #f87171;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
-      background: linear-gradient(180deg, #0b1220, #0f172a);
-      color: var(--text);
-      line-height: 1.7;
-    }
-    .container {
-      width: min(920px, 92%);
-      margin: 32px auto 64px;
-    }
-    .card {
-      background: rgba(17, 24, 39, 0.9);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 20px;
-      backdrop-filter: blur(4px);
-    }
-    h1, h2 {
-      margin: 0 0 12px;
-      line-height: 1.35;
-    }
-    h1 { font-size: 1.8rem; }
-    h2 {
-      font-size: 1.2rem;
-      color: var(--accent);
-      margin-top: 20px;
-    }
-    p, li { color: var(--text); }
-    .muted { color: var(--muted); font-size: 0.95rem; }
-    ul { padding-left: 1.2rem; }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    form { display: grid; gap: 14px; margin-top: 10px; }
-    label { font-weight: 600; font-size: 0.95rem; }
-    input, textarea, button, select {
-      width: 100%;
-      border-radius: 10px;
-      border: 1px solid #334155;
-      padding: 10px 12px;
-      font: inherit;
-      color: var(--text);
-      background: #0b1220;
-    }
-    textarea { min-height: 140px; resize: vertical; }
-    .row {
-      display: grid;
-      gap: 14px;
-      grid-template-columns: 1fr 1fr;
-    }
-    .checkbox {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 0.92rem;
-      color: var(--muted);
-    }
-    .checkbox input { width: auto; }
-    button {
-      background: var(--accent);
-      color: #082f49;
-      border: none;
-      font-weight: 700;
-      cursor: pointer;
-    }
-    button:hover { opacity: 0.92; }
-    .note {
-      border-left: 3px solid var(--danger);
-      padding-left: 10px;
-      color: #fecaca;
-      font-size: 0.9rem;
-    }
-    footer {
-      text-align: center;
-      color: var(--muted);
-      font-size: 0.9rem;
-      margin-top: 12px;
-    }
-    @media (max-width: 720px) {
-      .row { grid-template-columns: 1fr; }
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>プライバシーポリシー | シンプルモザイク</title>
 </head>
 <body>
-  <main class="container">
-    <section class="card">
-      <h1>プライバシーポリシー</h1>
-      <p class="muted">
-        制定日: [2026-03-25]<br>
-        最終改定日: [2026-03-25]<br>
-        事業者名: [運営者名/会社名]<br>
-        アプリ名: [アプリ名]
-      </p>
+  <main style="max-width:880px;margin:40px auto;padding:0 16px;line-height:1.8;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+    <h1>プライバシーポリシー（シンプルモザイク）</h1>
+    <p>最終更新日：2025-10-30</p>
 
-      <p>
-        [運営者名]（以下「当方」）は、[アプリ名]（以下「本アプリ」）における
-        ユーザー情報の取扱いについて、以下のとおりプライバシーポリシーを定めます。
-      </p>
+    <h2>1. 収集する情報</h2>
+    <p>本アプリは、ユーザーの顔データ（生体情報）を<strong>収集・保存・共有しません</strong>。写真の処理は、モザイク効果の適用に限り、<strong>すべて端末内で実行</strong>されます。</p>
 
-      <h2>1. 取得する情報</h2>
-      <ul>
-        <li>お問い合わせ時に入力された情報（氏名、メールアドレス、問い合わせ内容）</li>
-        <li>アプリの利用状況に関する情報（クラッシュ情報、利用ログ等）</li>
-        <li>広告配信・効果測定のために必要な識別情報（広告ID等）</li>
-        <li>端末情報（OSバージョン、アプリバージョン等）</li>
-      </ul>
+    <h2>2. 端末機能の利用目的</h2>
+    <ul>
+      <li><strong>カメラ：</strong>ユーザーがモザイク加工したい写真を撮影するために使用します。</li>
+      <li><strong>フォトライブラリ：</strong>ユーザーが端末内の写真を選択し、モザイク加工するために使用します。</li>
+    </ul>
+    <p>本アプリは顔認識・顔解析を実行せず、顔特徴量などの生体データを作成・送信しません。</p>
 
-      <h2>2. 写真・画像データの取り扱い</h2>
-      <ul>
-        <li>本アプリで選択・編集した画像は、原則として端末内で処理されます。</li>
-        <li>当方は、ユーザーの画像データを当方サーバーへアップロード・保存しません（※別途明示した機能を除く）。</li>
-      </ul>
+    <h2>3. データの保存・共有・移転</h2>
+    <p>写真データや顔データは<strong>外部サーバーへ送信されません</strong>。第三者への提供も行いません。写真はユーザーの端末内に留まり、ユーザーが削除すれば消去されます。</p>
 
-      <h2>3. 利用目的</h2>
-      <ul>
-        <li>本アプリの提供・運営のため</li>
-        <li>不具合調査、品質向上、機能改善のため</li>
-        <li>お問い合わせへの対応のため</li>
-        <li>広告配信、効果測定、不正利用防止のため</li>
-      </ul>
+    <h2>4. 保持期間</h2>
+    <p>顔データは保持しません。写真はユーザーの端末内でユーザーが管理し、不要になった場合はユーザーの操作により削除されます。</p>
 
-      <h2>4. 第三者提供・外部送信</h2>
-      <p>当方は、以下の外部サービスを利用する場合があります。</p>
-      <ul>
-        <li>アクセス解析/クラッシュ解析: [例: Firebase Analytics, Crashlytics]</li>
-        <li>広告配信: [例: Google AdMob]</li>
-        <li>決済: [例: App Store In-App Purchase]</li>
-      </ul>
-      <p class="muted">
-        各サービス事業者のプライバシーポリシーは、各公式サイトをご確認ください。
-      </p>
+    <h2>5. 第三者サービス（該当する場合）</h2>
+    <p>本アプリでは、広告配信・利用状況の把握のために第三者サービスを使用する場合があります。これらは顔データを扱いません。</p>
+    <ul>
+      <li><strong>Google AdMob</strong>（広告）：
+        端末情報や広告ID等を用いてパーソナライズ・計測を行う場合があります。詳細は
+        <a href="https://policies.google.com/privacy">Google プライバシーポリシー</a> をご確認ください。
+      </li>
+    </ul>
 
-      <h2>5. 情報の管理</h2>
-      <p>
-        当方は、取得した情報の漏えい、滅失、改ざん等を防止するため、
-        必要かつ適切な安全管理措置を講じます。
-      </p>
+    <h2>6. 児童のプライバシー</h2>
+    <p>適用法令に従い、児童の個人情報保護に配慮します。必要に応じて保護者の同意を取得します。</p>
 
-      <h2>6. ユーザーの権利</h2>
-      <p>
-        ユーザーは、法令の定めに従い、自己の情報の開示・訂正・削除等を求めることができます。
-        ご希望の場合は下記お問い合わせ窓口までご連絡ください。
-      </p>
+    <h2>7. お問い合わせ</h2>
+    <p>本ポリシーに関するお問い合わせは、以下までご連絡ください。<br>
+      メール：<a href="mailto:app.build.and@gmail.com">app.build.and@gmail.com</a>
+    </p>
 
-      <h2>7. 改定</h2>
-      <p>
-        本ポリシーの内容は、法令やサービス内容の変更に応じて改定することがあります。
-        重要な変更がある場合は、本ページ等で告知します。
-      </p>
+    <hr>
 
-      <h2>8. お問い合わせ窓口</h2>
-      <p>
-        メール: <a href="mailto:app.build.and@gmail.com">app.build.and@gmail.com</a><br>
-        受付時間: [平日10:00〜17:00 など]
-      </p>
-    </section>
+    <h1>Privacy Policy (Simple Mosaic)</h1>
+    <p>Last Updated: 2025-10-30</p>
 
-    <section class="card">
-      <h1>お問い合わせフォーム</h1>
-      <p class="muted">
-        以下のフォームからお問い合わせください。通常 [2〜5営業日] 以内に返信いたします。
-      </p>
+    <h2>1. Information We Collect</h2>
+    <p>The app <strong>does not collect, store, or share face data (biometric information)</strong>. All photo processing to apply mosaic effects is performed <strong>locally on the user’s device</strong>.</p>
 
-      <form action="[https://example.com/contact]" method="post">
-        <div class="row">
-          <div>
-            <label for="name">お名前</label>
-            <input id="name" name="name" type="text" required placeholder="山田 太郎" />
-          </div>
-          <div>
-            <label for="email">メールアドレス</label>
-            <input id="email" name="email" type="email" required placeholder="example@mail.com" />
-          </div>
-        </div>
+    <h2>2. Use of Device Features</h2>
+    <ul>
+      <li><strong>Camera:</strong> Used only to take photos that users choose to apply mosaic effects to.</li>
+      <li><strong>Photo Library:</strong> Used only to let users select photos stored on their device for mosaic processing.</li>
+    </ul>
+    <p>The app does not perform facial recognition or analysis, nor does it create or transmit facial feature data.</p>
 
-        <div>
-          <label for="category">お問い合わせ種別</label>
-          <select id="category" name="category" required>
-            <option value="">選択してください</option>
-            <option value="bug">不具合報告</option>
-            <option value="feature">機能要望</option>
-            <option value="billing">課金・購入について</option>
-            <option value="other">その他</option>
-          </select>
-        </div>
+    <h2>3. Storage, Sharing, and Transfers</h2>
+    <p>No photos or face data are transmitted to external servers. We do not share data with third parties. Photos remain on the user’s device and can be deleted by the user.</p>
 
-        <div>
-          <label for="subject">件名</label>
-          <input id="subject" name="subject" type="text" required placeholder="例: 保存時にエラーが出る" />
-        </div>
+    <h2>4. Retention</h2>
+    <p>No face data are retained. Photos are managed by the user on their device and can be deleted at any time.</p>
 
-        <div>
-          <label for="message">お問い合わせ内容</label>
-          <textarea id="message" name="message" required placeholder="詳細をご記入ください"></textarea>
-        </div>
+    <h2>5. Third-Party Services (if applicable)</h2>
+    <p>We may use third-party services for advertising or analytics. These services do not handle face data.</p>
+    <ul>
+      <li><strong>Google AdMob</strong> (ads): May use device information and advertising IDs for personalization and measurement. See the
+        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+      </li>
+    </ul>
 
-        <label class="checkbox">
-          <input type="checkbox" name="agree" required />
-          プライバシーポリシーに同意します
-        </label>
+    <h2>6. Children’s Privacy</h2>
+    <p>We protect children’s privacy in accordance with applicable laws and obtain parental consent where required.</p>
 
-        <button type="submit">送信する</button>
-      </form>
-
-      <p class="note">
-        ※ フォームはHTMLだけではメール送信できません。`action` に送信先（API等）の設定が必要です。
-      </p>
-    </section>
-
-    <footer>
-      © [2026] [運営者名]
-    </footer>
+    <h2>7. Contact</h2>
+    <p>Email: <a href="mailto:app.build.and@gmail.com">app.build.and@gmail.com</a></p>
   </main>
 </body>
 </html>
